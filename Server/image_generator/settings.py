@@ -61,7 +61,7 @@ ROOT_URLCONF = "image_generator.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [BASE_DIR / 'myapp/templates'],
+        "DIRS": [BASE_DIR / 'static'],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [

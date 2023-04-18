@@ -10,7 +10,7 @@ import cloudinary
 from cloudinary.uploader import upload
 from cloudinary.utils import cloudinary_url
 
-OPENAI_KEY = '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'
+OPENAI_KEY = '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'
 
 openai.api_key = OPENAI_KEY
 CLOUDINARY_API_NAME = 'ddnvj9ly8'
