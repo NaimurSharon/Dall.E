@@ -80,22 +80,22 @@ WSGI_APPLICATION = "image_generator.wsgi.application"
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
-DATABASES = {
-    "default": {
-        "ENGINE": "django.db.backends.sqlite3",
-        "NAME": BASE_DIR / "db.sqlite3",
-    }
-}
-
 # DATABASES = {
-#     'default': {
-#         'ENGINE': 'djongo',
-#         'NAME': 'pyxelcatmedia',
-#         'CLIENT': {
-#             'host': 'mongodb+srv://pyxelcatmedia:pyxelcatmedia@cluster0.mvqnik2.mongodb.net/test',
-#         }
+#     "default": {
+#         "ENGINE": "django.db.backends.sqlite3",
+#         "NAME": BASE_DIR / "db.sqlite3",
 #     }
 # }
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'djongo',
+        'NAME': 'pyxelcatmedia',
+        'CLIENT': {
+            'host': 'mongodb+srv://pyxelcatmedia:pyxelcatmedia@cluster0.mvqnik2.mongodb.net/test',
+        }
+    }
+}
 
 
 # Password validation
